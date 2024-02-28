@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>sumario</h3>
+    <section id="sumario">
+        <ul>
+            <li><a href="#p1">parte 1</a></li>
+            <li><a href="#p2">parte 2</a></li>
+            <li><a href="#p3">parte 3</a></li>
+        </ul>
+    </section>
+    <section id="p1">
+    <hr>
+    <h3>parte 1</h3>
+    <br>
+    <form>
+        <label for="iptNome">Nome:</label>
+        <input type="text" id="iptNome"> <br>
+    
+
+        <label for="iptNasc">idade:</label>
+        <input type="number" id="iptNasc"><br>
+    
+    
+        <label for="iptdat">data de nascimento:</label>
+        <input type="date" id="iptdat"><br>
+    
+    
+        <label for="iptSenha">Senha:</label>
+        <input type="password" id="iptSenha"> <br>
+    
+        <label for="iptcor">cor:</label>
+        <input type="color" id="iptcor"><br>
+   
+    
+        <label for="iptemail">email:</label>
+        <input type="email" id="iptemail"><br>
+    
+        <label for="iptLinux">usuario do linux?
+        <input type="radio" name="iptLinux"> Sim
+        <input type="radio" name="iptLinux"> Não<br>
+
+    </label>
+    <label for="slcEstadoCivil">Estado civil</label>
+    <select id="slcEstadoCivil" name="slcEstadoCivil"multiplo>
+        <option value="1">Solteiro</option>
+        <option value="2">casado</option>
+        <option value="3">viuvo</option>
+        <option value="4">divorciado</option>
+    </select>
+    <label for="txtCOmentario">Comentario</label>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>Nome:<input type="text" name="nome"/></label><br />
+
+        <label>Data de nascimento:<input type="text" name="data de nascimento"/></label><br />
+
+        <label>Endereço:<input type="text" name="Endereço"/></label><br />
+        <label>Bairro:<input type="text" name="Bairro"/></label><br />  
+        <label>Cidade:<input type="text" name="cidade"/></label><br />
+        <label>CEP:<input type="text" name="CEP"/></label><br />
+        <label for="slcEstado">Estado</label>
+        <select id="slcEstado" name="slcEstado"multiplo>
+            
+                <option value="<?php echo $row_usu['id']; ?>"><?php echo 
+                $row_usu['uf']; ?></option>
+                <option value=""></option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+                </select>
+                <fieldset>  
+                <legend>Dados Profissionais</legend>
+                <label> Natureza do cargo
+                    <input type="radio" name="cargo" value="1" checked> Gerência
+                     <input type="radio" name="cargo" value="2" > Financeiro
+                     <input type="radio" name="cargo" value="3" > Recepção
+                     <input type="radio" name="cargo" value="2" > Administrativo
+                     <input type="radio" name="cargo" value="3" > Jurídico
+
+                </label>
+                <label> Área de interesse
+                    <input type="radio" name="cargo" value="1"  > Computação
+                     <input type="radio" name="cargo" value="2" > Química
+                     <input type="radio" name="cargo" value="3" > Meio Ambiente
+                     <input type="radio" name="cargo" value="2" > Engenharia
+                     <input type="radio" name="cargo" value="3" > Matemática
+
+                </label>
+                
+                <p>Mini-currículo:<textarea name="Mini-currículo"
+                         cols="20" rows="5"></textarea></p>
+                        </fieldset>
+                
+
+
+
+
+
+
+            
+
+        
+
+    </form>
+    <fieldset>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore blanditiis vel debitis a reprehenderit, quod nam voluptate mollitia illum adipisci assumenda consequatur sint sed quo ipsa, nulla repudiandae optio qui magnam deleniti? Alias eveniet temporibus tempora tempore officia a voluptate architecto at voluptatum. Libero ipsa commodi esse reiciendis, atque cupiditate numquam nesciunt, dolorem quam perspiciatis non laborum consectetur quidem nam odit sit! Qui modi officia excepturi reprehenderit assumenda fugiat adipisci dolore hic, quaerat magni esse voluptate aliquam quia distinctio natus earum blanditiis vitae cupiditate. Asperiores, praesentium blanditiis? Eum impedit tempora quam ullam architecto aliquid iure quidem quasi voluptate sed deserunt reiciendis, at exercitationem totam corporis non, in veritatis eius. Culpa architecto reiciendis similique provident recusandae nulla officiis asperiores. Sed, voluptatibus magni nisi commodi minima autem doloremque. Numquam tempore quasi veniam, eius esse voluptatibus, tenetur, deserunt magni voluptatum a cupiditate nihil ipsam voluptate praesentium nemo maxime pariatur optio quia perspiciatis minus? Cupiditate neque nisi excepturi. Molestiae, inventore ex iste vitae fuga aut labore ab eligendi? Excepturi similique commodi minima delectus laborum nesciunt error nostrum quisquam a eveniet facere accusantium non, quidem maiores odio sunt rem pariatur maxime, est fugit corrupti alias quia? Nihil ratione sequi fugit harum totam ullam cupiditate?</p>
+    <h3>exempllo de imagem</h3>
+    <img src="55d9595b017e661207eb2ba77e671eda.jpg" alt="imagem do klaus">
+    <a href="#sumario">sumario</a>
+    <br>
+    </section>
+    <hr>
+    <section id="p2">
+    <h3>parte 2</h3>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ea amet molestiae veniam voluptate repellendus rerum assumenda? Corrupti, veniam? Similique nam eaque commodi cum quasi molestias id aliquam nesciunt veritatis fugiat, modi assumenda esse ducimus corrupti necessitatibus? Omnis libero iure nobis placeat. Repellendus expedita tempora fugiat at, numquam error. Itaque blanditiis neque odio voluptatem perspiciatis ea repudiandae illum expedita dolorum incidunt? Totam consectetur qui nam a, omnis explicabo minus? Debitis hic quaerat amet sed nam, libero culpa quibusdam in eaque quas reprehenderit laborum voluptates illum pariatur fuga architecto deserunt? Excepturi velit harum illo repellendus deleniti rerum. Vitae, porro saepe sed veritatis, doloribus doloremque odit numquam vero illum, officia est? Illo nihil eius repudiandae debitis recusandae hic ipsam ipsum eaque cupiditate? Rerum culpa quas animi beatae rem repellendus odio dicta aperiam molestiae. Sint, culpa mollitia fugit ea deserunt aspernatur ipsa? Eos adipisci reprehenderit harum modi nostrum fuga dicta a quia non officia voluptates incidunt inventore rem, culpa perspiciatis nihil nobis quasi ducimus, laboriosam tempora facilis. Veritatis repellendus, deserunt quis, quod labore temporibus quia, omnis necessitatibus doloremque recusandae libero quas officiis ipsam rem dignissimos esse. Consectetur ad beatae veritatis sit modi distinctio magni delectus architecto excepturi nostrum! Quidem beatae distinctio placeat doloribus?</p>
+    <a href="#sumario">sumario</a>
+    </section>
+    <br>
+    <hr>
+    <section id="p3">
+    <h3>parte 3</h3>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ut error aut dicta nostrum doloremque perferendis. Voluptatibus molestiae excepturi tempora voluptatem! Fuga nisi nam exercitationem doloremque illo quaerat magni quis consequatur eveniet debitis eum, rem possimus dolore ipsam quas nobis porro fugit cupiditate laboriosam soluta harum veniam sed incidunt. Dignissimos laboriosam tempore quibusdam ea veniam, repudiandae ipsum, minima similique, ad totam incidunt esse iusto quasi unde magnam aliquam rem ratione doloribus dolor. Possimus, dolore pariatur minima tenetur dicta officia laboriosam exercitationem? Delectus molestiae quidem velit nobis ipsam expedita officia nisi laboriosam quibusdam doloremque explicabo eos aut accusantium, qui a rem itaque voluptatem assumenda aliquid? Porro nisi vel, corporis dicta doloribus veritatis odio rem, reprehenderit cupiditate quae illo obcaecati fugit nobis ratione libero dolores a delectus ea et quia nesciunt esse rerum ducimus voluptate! Placeat voluptatibus quia corrupti, sunt quaerat unde asperiores aspernatur nemo recusandae molestiae? Ex sint aliquid nisi, sed facere, excepturi ut iusto nostrum similique maiores, provident voluptatibus. Est veniam rerum laborum exercitationem aut illo laboriosam error molestiae dicta dolorem autem dolor, ratione aliquam blanditiis ipsa pariatur amet nostrum voluptatem itaque in tenetur dolorum sapiente accusamus. Velit ipsa eveniet perferendis, voluptates excepturi itaque. Tempore quia culpa voluptate voluptas. Aut.</p>
+    <a href="#sumario">sumario</a>
+    </section>
+   <hr>
+    <section >
+        
+    </section>
+    <a href="index.html"target="blank">Pagina principal</a>
+    <p>ola , voce esta na segunda pagina</p>
+</fieldset>
+
+    
+</body>
+</html>
