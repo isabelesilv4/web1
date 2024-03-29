@@ -1,4 +1,5 @@
-<form>
+<! DOCTYPE html>
+<title><form></title>
     <h1>Formulário</h1>
 <fieldset>
     <legend>Dados Pessoais</legend>
@@ -12,10 +13,9 @@
     <label>Cidade:<input type="text" name="cidade"/></label><br />
     <label>CEP:<input type="text" name="CEP"/></label><br />
     <label for="slcEstado">Estado</label>
-    <select id="slcEstado" name="slcEstado"multiplo>
+    <select id="slcEstado" name="slcEstado" multiplo>
         
-            <option value="<?php echo $row_usu['id']; ?>"><?php echo 
-            $row_usu['uf']; ?></option>
+            
             <option value=""></option>
             <option value="AC">AC</option>
             <option value="AL">AL</option>
