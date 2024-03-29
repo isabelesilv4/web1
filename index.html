@@ -1,0 +1,92 @@
+<form>
+    <h1>Formulário</h1>
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <label>Nome:<input type="text" name="nome"/></label><br />
+
+    <label>Data de nascimento:
+        <input type="text" name="data de nascimento"/></label><br />
+
+    <label>Endereço:<input type="text" name="Endereço"/></label><br />
+    <label>Bairro:<input type="text" name="Bairro"/></label><br />  
+    <label>Cidade:<input type="text" name="cidade"/></label><br />
+    <label>CEP:<input type="text" name="CEP"/></label><br />
+    <label for="slcEstado">Estado</label>
+    <select id="slcEstado" name="slcEstado"multiplo>
+        
+            <option value="<?php echo $row_usu['id']; ?>"><?php echo 
+            $row_usu['uf']; ?></option>
+            <option value=""></option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+            </select>
+        </fieldset>
+        
+            <fieldset>
+        
+            <legend>Dados Profissionais</legend>
+            <label> Natureza do cargo
+                <input type="radio" name="cargo" value="1" checked> Gerência
+                 <input type="radio" name="cargo" value="2" > Financeiro
+                 <input type="radio" name="cargo" value="3" > Recepção
+                 <input type="radio" name="cargo" value="2" > Administrativo
+                 <input type="radio" name="cargo" value="3" > Jurídico
+
+            </label>
+            <label> Área de interesse
+                <input type="radio" name="area" value="1"  > Computação
+                 <input type="radio" name="area" value="2" > Química
+                 <input type="radio" name="area" value="3" > Meio Ambiente
+                 <input type="radio" name="area" value="2" > Engenharia
+                 <input type="radio" name="area" value="3" > Matemática
+                
+        
+
+            </label>
+            
+            <p>Mini-currículo:<textarea name="Mini-currículo"
+                     cols="20" rows="5"></textarea></p>
+                    </fieldset>
+        
+                    
+        
+                  
+        
+                    
+            
+
+
+
+
+
+
+        
+
+    
+
+</form>
